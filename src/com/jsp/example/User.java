@@ -3,7 +3,7 @@ package com.jsp.example;
 class User {
 	private String username;
 	private int id;
-	private long password;
+
 	public void setUsername() {
 		this.username=username;
 	}
@@ -16,11 +16,6 @@ class User {
 	public int getId() {
 		return id;
 	}
-	public void setPassword() {
-		this.password=password;
-	}
-	public long getPassword() {
-		return password;
-	}
+	
 
 }
